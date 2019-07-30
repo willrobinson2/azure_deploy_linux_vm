@@ -49,7 +49,7 @@
   "variables": {
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'salinuxvm')]",
     "imagePublisher": "Canonical",
-    "adminUsername": "wrobinso"
+    "adminUsername": "wrobinso",
     "imageOffer": "UbuntuServer",
     "nicName": "myVMNic",
     "addressPrefix": "10.0.0.0/16",
