@@ -4,7 +4,10 @@
   "parameters": {
     "adminUsername": {
         "value": "wrobinso",
-	"defaultValue": wrobinso
+	"defaultValue": "wrobinso",
+        "metadata": {
+             "description": "Type of name of the admin user."
+        }
     },
     "authenticationType": {
       "type": "string",
