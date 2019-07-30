@@ -3,7 +3,8 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-        "value": "wrobinso"
+        "value": "wrobinso",
+	"defaultValue": "wrobinso"
     },
     "authenticationType": {
       "type": "string",
