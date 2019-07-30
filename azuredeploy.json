@@ -4,7 +4,7 @@
   "parameters": {
     "adminUsername": {
         "value": "wrobinso",
-	"defaultValue": "wrobinso"
+	"defaultValue": wrobinso
     },
     "authenticationType": {
       "type": "string",
@@ -25,6 +25,7 @@
     },
     "dnsLabelPrefix": {
       "type": "string",
+      "defaultValue": ".medctr.ad.wfubmc.edu",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
